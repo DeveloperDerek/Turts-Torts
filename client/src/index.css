@@ -1,0 +1,93 @@
+html * {
+    /* the !important ensures that nothing can override what you've set in this style (unless it is also important).  */
+    font-family: Cambria
+}
+
+.f900{
+    font-weight: 900;
+}
+
+body {
+    background-color:ivory;
+}
+
+.goldenrod {
+    color: darkgoldenrod
+}
+
+.bisque {
+    color : bisque;
+}
+
+.bisqueborder {
+    border-color: bisque;
+    color : bisque;
+}
+
+.navbar_bg {
+    background-color:seagreen
+}
+
+.popup {
+    position: fixed;
+    z-index: 1;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cart-popup {
+    height: 65%;
+    overflow: auto;
+}
+
+.width50 {
+    width: 50%
+}
+
+.fill-vertical {
+    min-height: 100vh;
+}
+
+.fill-75 {
+    min-height: 62vh;
+}
+
+.fill-in {
+    min-height: 100%;
+}
+
+.product-img {
+    object-fit: scale-down;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: scale-down;
+}
+
+.hover {
+    cursor: pointer;
+}
+
+.blur {
+    opacity: 0.25;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+.ninja {
+    max-width: 72%;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+
+.custom-collapse .collapse{
+    display:block;
+    }  
+}
+
